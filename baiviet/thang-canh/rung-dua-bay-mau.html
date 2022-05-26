@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rừng dừa Bảy Mẫu</title>
+    <link rel="stylesheet" href="/css/web.css">
+    <link rel="stylesheet" href="main_thang_canh.css">
+    <link rel="stylesheet" href="media-main-thangcanh.css">
+    <script type="text/javascript" src="/js/main.js"></script>
+    <!-- link đưa ảnh fabook -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header" na-include-html="/common/header.html">
+        <!-- CONTENT HEADER: common/header.html -->
+    </header>
+
+    <!-- /.header -->
+
+    <div class="page-detail">
+        <div id="post-detail">
+            <div id="post-info">
+                <div class="tool">
+                    <ol>
+                        <li>
+                            <a href="/home.html">Trang chủ</a>
+                        </li>
+                        <li>|>></li>
+                        <li>
+                            <a href="#">Bài viết</a>
+                        </li>
+                    </ol>
+                </div>
+                <!-- /.tool -->
+            </div>
+            <!-- /#post-info-->
+
+            <div id="post-content">
+                <!-- TODO: include content -->
+                <div na-include-html="rung-dua-bay-mau-content.html"></div>
+            </div>
+
+            <!-- /#post-content-->
+        </div>
+        <!-- /#post-detail-->
+    </div>
+    <!-- /.page-detail -->
+
+    <footer class="footer" na-include-html="/common/footer.html">
+
+    </footer>
+
+    <script>
+        // Goi function include file content HTML - duoc dinh nghia trong file /js/main.js 
+        includeHTML();
+    </script>
+
+</body>
+
+</html>

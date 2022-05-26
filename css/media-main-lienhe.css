@@ -1,0 +1,108 @@
+@media (max-width: 740px) {
+    .logo {
+        width: 10%;
+        height: 5%;
+    }
+    body {
+        font-family: 'Nunito Sans';
+    }
+    .hero {
+        background-image: url(https://media.vneconomy.vn/images/upload/2021/11/15/ava.jpg);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        color: #FFFFFF;
+        padding-top: 1px;
+        font-size: 22px;
+        animation: filling 10s ease forwards;
+        font-weight: bolder;
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+    .header {
+        display: flex;
+    }
+    .width {
+        width: 40%;
+    }
+    .menu {
+        background-color: rgb(52, 99, 146);
+    }
+    .menu ul {
+        display: flex;
+        padding: 2px;
+        margin: 1px;
+    }
+    .menu ul li {
+        display: inline-block;
+        border-left: 2px solid #fff;
+        padding: 1px 18.5px;
+        text-align: center;
+    }
+    .menu ul li:first-child {
+        border-left: 1px;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    .menu ul li a:hover {
+        color: #D92027;
+    }
+    /* Khu thong tin liên hệ du lịch */
+    div.contact1 {
+        float: left;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .contact1 p.header {
+        font-size: 24px;
+        margin-bottom: 4px;
+        margin-left: 20px;
+        text-align: center;
+        color: white;
+        background-color: #005BAF;
+    }
+    .info-item {
+        margin-right: 50px;
+    }
+    form {
+        background-color: white;
+        width: 340px;
+        height: 590px;
+        border-radius: 7px;
+        margin-left: 330px;
+        padding: 0px 10px;
+        position: relative;
+        top: 4px;
+    }
+    /* footer */
+    div.footer div ul li {
+        list-style: none;
+    }
+    div.footer div ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    div.footer div hr {
+        width: 100px;
+        float: left;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #FDA201;
+    }
+    div.footer div {
+        width: 300px;
+    }
+    .text-end {
+        font-size: 12px;
+        color: white;
+        padding-top: 70px;
+        margin-left: 1px;
+        width: 300px;
+    }
+}

@@ -1,0 +1,43 @@
+.page-detail {
+    padding-top: 140px;
+    background-color: #dddddd;
+    color: rgb(43, 38, 38);
+}
+
+#post-detail {
+    width: 1300px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+#post-content {
+    /* padding: 20px; */
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#post-info {
+    padding-top: 20px;
+}
+
+#post-info h2.post-title {
+    font-size: 29px;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    background: #e7f2f5;
+    margin-top: -9px;
+}
+
+img {
+    height: 550px;
+    width: 800px
+}
+
+.text {
+    width: 740px;
+    margin: auto;
+}

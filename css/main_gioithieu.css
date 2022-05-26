@@ -1,0 +1,81 @@
+div.content {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+div.head {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+div.body {
+    width: 900px;
+    text-align: justify;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+
+/* google map */
+
+.iframe-map {
+    width: 900px;
+    height: 500px;
+    border: 0;
+    margin-left: 10px;
+}
+
+img {
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    width: 800px;
+    height: 500px;
+}
+
+div.footer {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #3b5ba6;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+div.footer div ul li {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+div.footer div ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+div.footer div hr {
+    width: 20%;
+    float: left;
+    margin-top: -10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FDA201;
+}
+
+div.footer div {
+    width: 350px;
+}
+
+.text-end {
+    font-size: 14px;
+    color: white;
+    width: 400px;
+    padding-top: 50px;
+    margin-left: 200px;
+}

@@ -1,0 +1,97 @@
+@media (max-width: 740px) {
+    .logo {
+        width: 10%;
+        height: 5%;
+    }
+    body {
+        font-family: 'Nunito Sans';
+    }
+    .hero {
+        background-image: url(https://media.vneconomy.vn/images/upload/2021/11/15/ava.jpg);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        color: #FFFFFF;
+        padding-top: 1px;
+        font-size: 26px;
+        animation: filling 10s ease forwards;
+        font-weight: bolder;
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+    .header {
+        display: flex;
+        width: 100%;
+    }
+    .menu {
+        background-color: rgb(52, 99, 146);
+    }
+    .menu ul {
+        display: flex;
+        padding: 2px;
+        margin: 1px;
+    }
+    .menu ul li {
+        display: inline-block;
+        border-left: 2px solid #fff;
+        padding: 1px 20px;
+        text-align: center;
+    }
+    .menu ul li:first-child {
+        border-left: 1px;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    .menu ul li a:hover {
+        color: #D92027;
+    }
+    /* page */
+    .page-detail {
+        padding-top: 18px;
+        background-color: #dddddd;
+        color: rgb(43, 38, 38);
+    }
+    #post-detail {
+        width: 650px;
+        margin: 0 auto;
+        background-color: #ffffff;
+    }
+    #post-content {
+        padding: 10px;
+        width: 90%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    header {
+        position: fixed;
+        background: #e7f2f5;
+        margin-top: -9px;
+    }
+    /* image */
+    #image {
+        width: 650px;
+        height: 400px;
+    }
+    .text {
+        width: 580px;
+        margin: auto;
+    }
+    /* icon media */
+    .icon-media {
+        display: flex;
+        padding: 20px;
+        margin: 25px;
+    }
+    .padding {
+        padding: 2px;
+        font-size: 15px;
+    }
+    .edit {
+        margin: 1px;
+    }
+}
